@@ -3,11 +3,10 @@ import nmap
 
 def port_scanner(ports):
     nm = nmap.PortScanner()
-    print(nm.scan(ports, '21-1000'))
+    # print(nm.scan(ports, '21-1000'))
     nm.scan(ports, '21-1000')
     print(ports)
     print(nm.all_hosts())
-    print(ports)
     for host_names in nm.all_hosts():
         print(ports)
         ports = nm[host_names].get('tcp')
@@ -26,7 +25,7 @@ def port_scanner(ports):
 def write_to_file(contents):
     f = open('result_of_nmap', 'w')
 
-    f.write(contents)
+    f.write(str(contents))
     """
     first remove the pass from function body
     then write your code
