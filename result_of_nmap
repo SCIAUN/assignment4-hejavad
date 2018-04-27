@@ -1,0 +1,1 @@
+{80: {'product': 'gws', 'state': 'open', 'version': '', 'name': 'http', 'conf': '10', 'extrainfo': '', 'reason': 'syn-ack', 'cpe': ''}, 443: {'product': 'gws', 'state': 'open', 'version': '', 'name': 'https', 'conf': '10', 'extrainfo': '', 'reason': 'syn-ack', 'cpe': ''}}
